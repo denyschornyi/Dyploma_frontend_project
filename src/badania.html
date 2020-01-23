@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>System wspomagający zdrowe odzywianie</title>
+    <meta name="vieport" content="width-device-width , initial-scale=1" >
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/badania.css">
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+</head>
+<body>
+   <header class="header">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Dietolog</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Diety</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="badania.html">Badania</a>
+                    </li>
+                  </ul>
+                  
+                  <ul class="nav navbar-nav navbar-right sign-btn">
+                        <li class="nav-item   ">
+                            <a class="nav-link  log-btn login  button header-btn popup-btn" href="logowanie_form.html">Log In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  log-btn sign-up header-btn popupsign-btn" href="registration-form.html">Sign Up</a>
+                        </li>
+                    </ul>
+                    
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+   <section class="badania">
+        <div class="container">
+                <div class="row">
+                                <div class="col-3">
+                                  <div class="nav flex-lg-column order-md-1 flex-md-row  nav-pills badania-column" id="v-pills-tab" >
+    
+                                    <a class="nav-link active"  data-toggle="pill" href="#v-pills-home" >
+                                        <div class="badania-block">
+                                            <div class="badania-img">
+                                                <img src="img/try3.svg" alt="">
+                                            </div>
+                                            <h3>Informacja</h3>
+                                        </div>
+                                    </a>
+    
+                                    <a class="nav-link" data-toggle="pill" href="#v-pills-profile" >
+                                            <div class="badania-block">
+                                                    <div class="badania-img">
+                                                        <img src="img/try1.svg" alt="">
+                                                    </div>
+                                                    <h3>Test na tłuszcz</h3>
+                                                </div>
+                                    </a>
+    
+                                    <a class="nav-link"  data-toggle="pill" href="#v-pills-messages" >
+                                            <div class="badania-block">
+                                                    <div class="badania-img">
+                                                        <img src="img/try2.svg" alt="">
+                                                    </div>
+                                                    <h3>Kalkulator kalorii</h3>
+                                                </div>
+                                    </a>
+    
+                                    <a class="nav-link"  data-toggle="pill" href="#v-pills-settings" >
+                                            <div class="badania-block">
+                                                    <div class="badania-img">
+                                                        <img src="img/try1.svg" alt="">
+                                                    </div>
+                                                    <h3>Kalkulator wody</h3>
+                                                </div>
+                                    </a>
+    
+                                  </div>
+                                </div>
+    
+                                <div class="col-9">
+
+                                  <div class="flex-lg-column order-md-2 flex-md-column tab-content" id="v-pills-tabContent">
+    
+                                        <div class="tab-pane fade show active" id="v-pills-home">
+                                        <div class="information">
+                                                <h3 class="information-title">Informacja wstępna</h3>
+                                                <h4 class="information-fat">
+                                                    Kalkulator tłuszczu w organizmie
+                                                </h4>
+                                                <p class="infromation-fat-article">
+                                                    Kallkulator ten korzysta ze wzoru opracowanego prze U.S. Navy. Do wykonania obliczeń nie jest potrzebny żaden specjalistyczny sprzęt, niezbędny przy innych metodach obliczania zawartości tłuszczu w ciele. Za pomocą centymetra karawieckiego dokonaj kilku prostych pomiarów, wpisz dane w okienka i kliknij: Oblicz. Otrzymasz informację, jaki procent Twojej masy ciała stanowi tłuszcz (z dokładnością do 3%) oraz interpreatcję wyniku.
+                                                </p>
+
+                                                <h4 class="information-kalorii">
+                                                    Kalkulator kalorii? Czyli ile musisz sporzywać codziennie?
+                                                </h4>
+                                                <p class="information-kalorii-article">
+                                                    Kalkulator kalorii umożliwia szybkie i wygodne wyliczenie własnego dziennego zapotrzebowania na kalorie oraz poznanie wskaźnika BMR. Wskaźnik podstawowej przemiany materii (Basal Metabolic Rate, BMR) jest minimalnym dziennym zapotrzebowaniem energetycznym koniecznym do podtrzymania podstawowych procesów życiowych ciała w spoczynku.
+                                                </p>
+
+                                                <h4 class="information-woter">
+                                                    Sugerowane dzienne spożycie wody
+                                                </h4>
+                                                <p class="information-woter-artile">
+                                                    Kalkulator obliczy ile wody powinieneś spożyć aby uzupełnić dzienne zapotrzebowanie.
+
+                                                        Aby uzyskać wynik wprowadź odpowiednie dane w puste pola kalkulatora.
+                                                        Przed wprowadzeniem nowych danych konieczne jest wyczyszczenie formularza.
+                                                </p>
+                                        </div> 
+                                        </div>
+
+                                        <div class="tab-pane fade" id="v-pills-profile">
+                                            <div class="fat">
+                                                    <h3 class="fat-header">Kalkulator zawartości tłuszczu w ciele</h3>
+                                                    <form class="fat-form" action="" method="post">
+                                                            <table>
+                                                                       
+                                                                 <tr>
+                                                                   <td class="label">Zaznacz swoją płeć:</td>
+                                                                   <td>
+                                                                     <label><input type="radio" class="gender" name="gender" value="1" checked="checked"/> Kobieta </label>
+                                                                             <label><input type="radio" class="gender " name="gender" value="2" /> Mężczyzna </label>
+                                                                   </td>
+                                                                 </tr>
+                                                           
+                                                                 <tr>
+                                                                   <td class="label">Podaj swoją wagę:</td>
+                                                                   <td>
+                                                                     <input  class="fat-input" type="text" name="weight" id="weight" />
+                                                                     <span class="unit-system-metric">kg</span>
+                                                                     
+                                                                   </td>
+                                                                 </tr>
+                                                                 <tr>
+                                                                   <td class="label">Podaj swój wzrost:</td>
+                                                                   <td>
+                                                                     <input class="unit-system-metric fat-input" type="text" name="height" id="height" /> <span class="unit-system-metric">cm</span>
+                                                                     <input  class="unit-system-imperial" type="text" name="height1" id="height1" /> <span class="unit-system-imperial">stopy</span>
+                                                                   </td>
+                                                                 </tr>
+                                                                 <tr>
+                                                                   <td class="label">Podaj swój obwód w pasie:</td>
+                                                                   <td>
+                                                                     <input  class="unit-system-metric fat-input" type="text" name="size1" id="size1" /> <span class="unit-system-metric">cm</span>
+                                                                   </td>
+                                                                 </tr>
+                                                                 <tr>
+                                                                   <td class="label">Podaj swój obwód w szyi:</td>
+                                                                   <td>
+                                                                     <input  class="unit-system-metric fat-input" type="text" name="size2" id="size2" /> <span class="unit-system-metric">cm</span>
+                                                                   </td>
+                                                                 </tr>
+                                                                 <tr class="for-woman">
+                                                                   <td class="label">Podaj swój obwód w biodrach:</td>
+                                                                   <td>
+                                                                     <input  class="unit-system-metric fat-input" type="text" name="size3" id="size3" /> <span class="unit-system-metric">cm</span>
+                                                                   </td>
+                                                                 </tr>
+                                                                 <tr>
+                                                                  <tr><td></td><td>
+                                                                     <input class="fat-form-btn" type="button" name="calculate-form" value="Oblicz zawartość tkanki tłuszczowej" />
+                                                                   </td>
+                                                                 </tr>
+                                                                 <tr class="results"><td class="label">Twoja zawartość tkanki tłuszczowej w % wynosi:</td>
+                                                                   <td id="form-result-one"></td>
+                                                                 </tr>
+                                                                 <tr class="results"><td class="label">Twoja zawartość beztłuszczowej masy ciała w <span class="unit-system-metric">kg</span>
+                                                                   <td id="form-result-two"></td>
+                                                                 </tr>
+                                                             </table>
+                                                           </form> 
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane fade" id="v-pills-messages" >
+                                            <div class="kalorii">
+                                                <h3 class="kalorii-header">Ile kalorii masz jeść? Kalkulator zapotrzebowania kalorycznego</h3>
+                                                <form id="calc3" class="calc" name="msje_calc">
+                                                       
+                                                        <div class="calccon">
+                                                        <ol class="calcStyle">
+                                                             <li class="spacing"><label for="male"><input id="male" checked="checked" name="gender" type="radio">Mężczyzna</label>
+                                                        <label for="female"><input id="female" name="gender" type="radio"> Kobieta</label></li>
+                                                             <li class="spacing"><label>Wiek</label><input maxlength="3" name="age" type="text" placeholder="lat" class="kalorii-input"> lat</li>
+                                                             <li style="display: none; color: #999; margin: 0.5em 1em 0.5em 0;"><em>Convert feet and inches to total inches (i.e. 5’5″ is 65 in.)</em></li>
+                                                             <li style="display: none;"><label><input maxlength="5" name="inch" type="text" placeholder="Height"> in</label>
+                                                        <label><input maxlength="5" name="lbs" type="text" placeholder="Weight"> lbs</label></li>
+                                                             <li style="display: none; color: #999; margin: 0.5em 1em 0.5em 0;"><em>—or—</em></li>
+                                                             <li class="spacing"><label>Wzrost</label><input class="kalorii-input" maxlength="5" name="cm" type="text" placeholder="wzrost"> cm.</li>
+                                                             <li class="spacing"><label>Waga</label>
+                                                        <label><input maxlength="4" name="kg" type="text" placeholder="Waga" class="kalorii-input"> kg.</label></li>
+                                                             <li><label class="wideRadio" for="e1"><input id="e1" checked="checked" name="multiplier" type="radio"> Brak aktywności fizycznej</label></li>
+                                                             <li><label class="wideRadio" for="e2"><input id="e2" name="multiplier" type="radio"> Mała aktywność fizyczna (ćwiczenia 1-3 tygodniowo)</label></li>
+                                                             <li><label class="wideRadio" for="e3"><input id="e3" name="multiplier" type="radio">Średnia aktyność fizyczna (ćwiczenia 3-5 tygodniowo)</label></li>
+                                                             <li><label class="wideRadio" for="e4"><input id="e4" name="multiplier" type="radio"> Duża aktywność fizyczna (ćwiczenia codziennie)</label></li>
+                                                             <li><label class="wideRadio" for="e5"><input id="e5" name="multiplier" type="radio"> Bardzo duża aktywność fizyczna</label></li>
+                                                             
+                                                             <li style="margin-top: 10px;">
+                                                               <input id="get_msje" class="kalorii-btn new-rasch" type="button" value="Oblicz">
+                                                            </li>
+                                                        </ol>
+                                                        <ol>
+                                                             
+                                                             <li><label>Potrzebujesz około:</label>
+                                                        <input class="bmrCalcHighlight kalorii-input" disabled="disabled" name="result_msje" type="text" placeholder="" > kcal/dzień</li>
+                                                             
+                                                             
+                                                       
+                                                        <input style="display: none;"  class="textboxCalc" disabled="disabled" name="result_bmr" type="text" placeholder=""> </li>
+                                                        
+                                                        </ol>
+                                                        </div>
+                                                        
+                                                        </form>
+                                            </div>
+                                        </div>                              
+
+                                        <div class="tab-pane fade" id="v-pills-settings"  >
+                                            <div class="water-counter">
+                                                    <h3 class="water-counter-title">Zapotrzebowanie organizmu na wodę</h3>
+
+
+                                            <div class="water-counter-form">
+                                                    
+                                            <form name="hydrate" method="get">
+
+                                                                                        
+                                                <p class="water-counter-label">Waga(KG)</p>
+                                                    <div class="input-group">
+                                                        <input onfocus="clear_field(this)" onchange="P.value = perRound((2.2046244201837774) * (this.value))" size="10" name="kg" ;="" class="water-counter-input" type="number">
+                                                
+                                                </div>
+                                            
+                                            <br>
+                                            
+                                            
+                                            
+                                                <p class="water-counter-label">Czas podwyższonego wysiłku w minutach (ćwiczeń):</p>
+                                                    <div class="input-group">
+                                                    <select name="min" class="water-counter-input"> 
+                                                        <option value="1">Wybierz czas</option> 
+                                                        <option value="0">0</option> 
+                                                        <option value="20" selected="">20</option> 
+                                                        <option value="40">40</option> 
+                                                        <option value="60">60</option>
+                                                    </select>
+                                
+                                                    </div>                            
+                                            
+                                            <br>
+                                            
+                                            
+                                                
+                                                <p class="water-counter-label">Twoje otoczenie, klimat w jakim przebywasz:</p>
+                                                <select name="env" class="water-counter-input"> 
+                                                    <option value="">Wybierz otoczenie</option> 
+                                                    <option value="1">Wysokie temparatury, bardzo sucho</option> 
+                                                    <option value=".85" selected="">Normalne - ciepłe</option> 
+                                                    <option value=".68">Normalne - chłodne</option>
+                                                    <option value=".88">Bardzo zimno - blisko zamarzania</option>
+                                                </select>
+                                            
+                                            
+                                            <br>
+                                            
+                                            <input type="button" name="submit" value="Oblicz" onclick="oblicz()" class="water-counter-btn">
+                                            <input type="reset" name="reset" onclick="resetValues(this.form)" value="Resetuj" class=" water-counter-btn">
+                                            
+                                                
+
+                                            </form>
+                                            </div>                                              
+                                            </div>
+
+                                        
+                                            
+                                                    
+                                            <div id="out" class="wynik_d"></div>
+                                                        
+                                                
+                                    
+
+                                                
+        
+                                        </div>
+
+                                    </div>
+    
+                                </div>      
+                </div>
+        </div>
+
+   </section>    
+   
+   
+
+
+         
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    
+    
+    <script type="text/javascript" src="js/fat.js"></script>
+    <script src="js/kalkulator_kalorii.js"></script>
+    <script src="js/badania.js"></script>
+    <script src="js/bmr-calculator.min.js"></script>
+    <script src="js/calc-page.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    
+
+   
+
+</body>
+</html>
+
+

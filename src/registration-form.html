@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>System wspomagający zdrowe odzywianie</title>
+    <meta name="vieport" content="width-device-width , initial-scale=1" >
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/badania.css">
+    <link rel="stylesheet" href="css/registration-form.css">
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+</head>
+<body>
+   <header class="header">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Dietolog</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Diety</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="badania.html">Badania</a>
+                    </li>
+                  </ul>
+                  
+                  <ul class="nav navbar-nav navbar-right sign-btn">
+                        <li class="nav-item   ">
+                            <a class="nav-link  log-btn login  button header-btn popup-btn" href="logowanie_form.html">Log In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  log-btn sign-up header-btn popupsign-btn" href="registration-form.html">Sign Up</a>
+                        </li>
+                    </ul>
+                    
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="section-registration">
+           <div class="form-center">
+                <form class="section-registration-form">
+                        <h1 class="h3 mb-3 font-weight-normal section-registration-form-header">Zarejestruj się</h1>
+
+                        <div class="roles">
+                            
+                                <label for="dietolog">
+                                        <input type="radio" name="person" class="person" id="dietolog" value="1">
+                                        <img src="img/dietolog.svg" alt="">
+                                        <p>Dietetyk</p>
+                                </label>
+                                
+                                
+                                
+                           
+                                <label for="user">
+                                        <input type="radio" name="person" class="person" id="user" value="2">
+                                        <img src="img/user.svg" alt="">
+                                        <p>Użytkownik</p>
+                                </label>
+                                
+                                
+                                
+                            
+                        </div>
+
+                        <label for="inputName" class="sr-only">Imie</label>
+                        <input type="name" id="inputName" class="form-control section-registration-form-input" placeholder="Imię" required="" >
+
+                        <label for="inputEmail" class="sr-only">Login</label>
+                        <input type="email" id="inputEmail" class="form-control section-registration-form-input" placeholder="Login" required="" >
+                        <label for="inputPassword" class="sr-only">Hasło</label>
+                        <input type="password" id="inputPassword" class="form-control section-registration-form-input" placeholder="Hasło" required="">
+                        <label for="inputPassword" class="sr-only">Hasło</label>
+                        <input type="password" id="inputPassword" class="form-control section-registration-form-input" placeholder="Potwierdź hasło" required="">
+                       
+                        <button class=" btn-block section-registration-form-btn" type="submit">Zalogować się</button>
+                        <p class="section-registration-form-text">Masz konto? <a class="section-registration-form-link" href="logowanie_form.html">Zaloguj się</a></p>
+                 </form>
+           </div> 
+    </section>
+   
+
+         
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    
+    
+    <script type="text/javascript" src="js/fat.js"></script>
+    <script src="js/kalkulator_kalorii.js"></script>
+    <script src="js/badania.js"></script>
+    <script src="js/bmr-calculator.min.js"></script>
+    <script src="js/calc-page.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    
+
+</body>
+</html>
+
+
